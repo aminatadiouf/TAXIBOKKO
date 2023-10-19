@@ -1,0 +1,99 @@
+/*form{
+    color : rgb(20, 19, 19);
+    margin-top:10px;
+    border-radius: 6px;
+}
+form{
+    color : rgb(20, 19, 19);
+    margin-top:10px;
+    border-radius: 6px;
+}*/
+/*
+form{
+   position: absolute;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px; 
+}*/
+
+
+/*body{
+    background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMTYtYy0wOF8xLWtzaDZtemEzLmpwZw.jpg');
+}
+*/
+.conteneur{
+    display:flex;                          
+    justify-content: space-between;
+    margin: 10%;
+    
+}
+.media-options{ width: 50%;
+    height: 50px;
+    flex-shrink:0;
+    border-radius: 7px;
+    background:#2679ed;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+.inscrire1{width: 100%;
+    height: 50px;
+    /*flex-shrink:0;*/
+    border-radius: 7px;
+   /* background:hsl(194, 97%, 48%);*/
+    border: none;
+    margin-top: 30px;
+    font-size: 30px;
+    
+
+}
+.inscrire2{width: 100%;
+    height: 40px;
+    /*flex-shrink:0;*/
+    border-radius: 7px;
+   /* background:#1729cb;*/
+    border: none;
+    margin-top: 30px;
+    font-size: 30px;
+   
+
+}
+
+
+.Inscription{
+    border: 1px solid #333;
+    float:left ;
+   border-style: solid;
+   
+    width: 30%;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px 20px;
+    }
+    .champ2{
+        border: 1px solid #333;
+    width: 30%;
+        border-style: solid;
+        margin-left: 10%;
+        text-align: center;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        padding: 20px 30px;
+       float: right;
+        }
+
+/*input[type='text']{
+    border: none;
+    opacity: 0.5;
+     background-color: rgb(188, 188, 207); 
+    background: linear-gradient(
+        150deg,
+
+    );
+
+}*/
+
+/*.form-container*/ input[type="submit"]:hover {
+    background-color: #1e62d8; /* Couleur de survol du bouton */
+}
